@@ -95,7 +95,7 @@
 }
 
 .drawer-list-item {
-  font-family: $title-font-family;
+  font-family: $navbar-font-family;
   font-weight: 700;
   font-size: 11px;
   color: $drawer-text-color;
@@ -125,7 +125,7 @@
       height: 100%;
       left: 0;
       top: 0;
-      background-color: $primary-color;
+      background-color: $drawer-hover-color;
       transition: width .3s;
     }
 
@@ -140,7 +140,7 @@
     }
 
     .fa {
-      color: $drawer-text-color;
+      color: #B85C2C;//$drawer-icon-color;
       vertical-align: sub;
       text-align: left;
       font-size: 22px;

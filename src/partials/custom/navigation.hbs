@@ -1,51 +1,73 @@
-{{! Templates
-
-Link
-==============
 <li class="drawer-list-item">
-  <a href="#" title="Follow me on twitter!">
-    <i class="fa fa-twitter"></i> Follow me
+  <a href="/" data-pjax>
+    <i class="fa fa-home"></i>Hut
   </a>
 </li>
 
-Divider
-==============
+
 <li class="drawer-list-divider"></li>
 
-Title
-==============
 <li class="drawer-list-item drawer-list-title">
-  Follow me
+  About
 </li>
-
-ProTip:
-==============
-Ghostium uses Font Awesome you can find all icons available on the url below
-  http://fortawesome.github.io/Font-Awesome/cheatsheet/
-
-}}
-
+<li class="drawer-list-item">
+  <a href="/about" data-pjax>
+    <i class="fa fa-users"></i>Who We Are
+  </a>
+</li>
 <li class="drawer-list-item">
   <a href="/" data-pjax>
-    <i class="fa fa-home"></i>Home
+    <i class="fa fa-crosshairs"></i>Why We Do This
+  </a>
+</li>
+<li class="drawer-list-item">
+  <a href="/" data-pjax>
+    <i class="fa fa-comments-o"></i>How To Palaver
+  </a>
+</li>
+
+
+<li class="drawer-list-divider"></li>
+
+<li class="drawer-list-item drawer-list-title">
+  Palaver
+</li>
+<li class="drawer-list-item">
+  <a href="{{@blog.url}}/rss/">
+    <i class="fa fa-bookmark"></i>Articles We Love
   </a>
 </li>
 <li class="drawer-list-item">
   <a href="{{@blog.url}}/rss/">
-    <i class="fa fa-rss"></i>Subscribe to Feed
+    <i class="fa fa-book"></i>Our Bookshelf
   </a>
 </li>
+
+
 <li class="drawer-list-divider"></li>
+
 <li class="drawer-list-item drawer-list-title">
-  Follow me
+  Follow Us
 </li>
 <li class="drawer-list-item">
-  <a href="http://twitter.com" target="_blank">
+  <a href="http://twitter.com/palaverhut" target="_blank">
     <i class="fa fa-twitter"></i>Twitter
   </a>
 </li>
 <li class="drawer-list-item">
-  <a href="http://github.com" target="_blank">
-    <i class="fa fa-github"></i>Github
+  <a href="http://twitter.com" target="_blank">
+    <i class="fa fa-bullhorn"></i>Contact Us
+  </a>
+</li>
+
+
+<li class="drawer-list-divider"></li>
+
+<li class="drawer-list-item drawer-list-title">
+  For Developers
+</li>
+<li class="drawer-list-item">
+  <a href="/developers" target="_blank">
+    <i class="fa fa-terminal"></i>Our Tech Stack
   </a>
 </li>

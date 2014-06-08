@@ -21,25 +21,31 @@ $text-color: #333;
 $muted-text-color: #B3B3B3;
 $line-breaks-color: #F2F2F2;
 
-$primary-color: #57A3E8;
+$primary-color: #27ae60;
+$palaver-brown: #926242;
+$palaver-logo-tint: rgba(255, 255, 255, .75);
 
 //----------------------------------*\
 // TYPO
 //----------------------------------*/
 
-$title-font-family: "Open Sans", "Myriad Pro", "Lucida Grande",
+$title-font-family: "open_sanslight", "Open Sans", "Myriad Pro", "Lucida Grande",
   "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
 
-$text-font-family: "Droid Serif", Georgia, Cambria, "Times New Roman",
-  Times, serif;
+$text-font-family: "open_sanslight", "Open Sans", "Myriad Pro", "Lucida Grande",
+  "Lucida Sans Unicode", "Lucida Sans", sans-serif;
+
+$navbar-font-family: "Open Sans", "Myriad Pro", "Lucida Grande",
+  "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
 
 //----------------------------------*\
 // DRAWER
 //----------------------------------*/
 
 $drawer-background-color: #232323;
-$drawer-text-color: #909090;
-$drawer-hover-color: #DDD;
+$drawer-text-color: #27ae60;
+$drawer-hover-color: #d35400;
+$drawer-icon-color: #2A6B3D;
 
 //----------------------------------*\
 // INPUTS
