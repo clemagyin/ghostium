@@ -1,23 +1,24 @@
 {
-  "name": "Ghostium",
-  "version": "2.2.1",
-  "description": "A Ghost theme focused on content based on Medium design/ux",
-  "url": "http://ghostium.oswaldoacauan.com/",
-  "copyright": "2013",
+  "name": "palaver",
+  "version": "1.1.0",
+  "description": "Clean Ghost theme for Palaver Hut blog forked from Ghostium by Oswaldo Acauan",
+  "url": "https://github.com/clemagyin/ghostium",
+  "copyright": "2014",
   "license": "MIT",
   "author": {
-    "name": "Oswaldo Acauan",
-    "email": "hello@oswaldoacauan.com",
-    "url": "http://oswaldoacauan.com"
+    "name": "Clem Akomea-Agyin",
+    "email": "ju.agyin@gmail.com",
+    "url": "www.linkedin.com/in/clemagyin/"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:oswaldoacauan/ghostium.git"
+    "url": "https://github.com/clemagyin/ghostium.git"
   },
   "bugs": {
     "url": "https://github.com/oswaldoacauan/ghostium/issues"
   },
   "keywords": [
+    "palaver",
     "ghost",
     "blog",
     "theme",
@@ -26,7 +27,7 @@
   "dependencies": {},
   "devDependencies": {
     "matchdep": "~0.3.0",
-    "grunt": "~0.4.1",
+    "grunt": "~0.4.4",
     "grunt-contrib-clean": "~0.5.0",
     "grunt-contrib-copy": "~0.4.1",
     "grunt-contrib-concat": "~0.3.0",
