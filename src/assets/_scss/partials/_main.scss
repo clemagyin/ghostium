@@ -75,11 +75,11 @@ body {
 
 .wrapper-container {
   position: relative;
-  padding: 25px 10% 40px 185px;
+  padding: 15px 10% 40px 185px;
   max-width: 910px;
 
   @include breakpoint(medium) {
-    padding: 40px 10%;
+    padding: 15px 10%;
     max-width: 100%;
   }
 
