@@ -312,11 +312,11 @@ module.exports = function(grunt) {
             src: [
               // Usemin moves css and js files with concat.
               // Add other files and patterns your site
-              // reqires for distrobution here, e.g., Bower components that
+              // requires for distribution here, e.g., Bower components that
               // aren't in a usemin block.
               '*.{ico,png,md,hbs}',
               'partials/**/*',
-              '<%= dir.images %>/**/*',
+              '<%= dir.images %>/*',
               '<%= dir.fonts %>/**/*'
             ],
             dest: '<%= dir.build %>'
@@ -353,7 +353,7 @@ module.exports = function(grunt) {
      */
     changelog: {
       options: {
-        github: 'oswaldoacauan/ghostium'
+        github: 'clemagyin/ghostium'
       }
     },
   });
