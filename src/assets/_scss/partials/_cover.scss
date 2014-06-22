@@ -62,3 +62,20 @@
   font-size: 16px;
   line-height: 1.2;
 }
+
+.ui-tooltip {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 30%;
+  padding: 5px;
+  z-index: 9999;
+  background-color: $palaver-tooltip-background;
+  color: #fff;
+
+  @include breakpoint(medium) {
+    top: 30%;
+    width: 100%;
+  }
+}
