@@ -1,5 +1,7 @@
 var toolTip = (function($) {
 
-  'use strict';
-  $(".cover").tooltip();
+  /*'use strict';
+  $(".cover").tooltip({
+    postion: "bottom"
+  });*/
 }(jQuery));

@@ -50,6 +50,12 @@
       opacity: .85;
     }
   }
+
+@include breakpoint(medium) {
+    position: relative;
+    bottom: 21px;
+  }
+
 }
 
 .cover-title {
@@ -63,19 +69,37 @@
   line-height: 1.2;
 }
 
-.ui-tooltip {
+.cover-tooltip {
   position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  width: 30%;
+  bottom: 0px;
+  width: 100%;
+  font-size: 11px;
   padding: 5px;
-  z-index: 9999;
-  background-color: $palaver-tooltip-background;
-  color: #fff;
+  z-index: 10;
+  background-color: #000;
+  color: #999999;
 
-  @include breakpoint(medium) {
-    top: 30%;
-    width: 100%;
+  a {
+    color: #999999;
   }
 }
+/*
+.cover-tooltip-small {
+  display: none;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  font-size: 11px;
+  padding: 5px;
+  z-index: 10;
+  background-color: #000;
+  color: #999999;
+
+  a {
+    color: #999999;
+  }
+
+  @include breakpoint(medium) {
+    display: block;
+  }
+}*/
