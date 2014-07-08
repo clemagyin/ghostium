@@ -1,4 +1,4 @@
-var imageCaption = ( function($) {
+var imageCaption = $(function() {
   'use strict'
 
   $(".post-body img").each(function() {
@@ -7,4 +7,4 @@ var imageCaption = ( function($) {
       .after('<figcaption>' + $(this).attr("alt") + '</figcaption');
     }
   });
-})(jQuery);
+});

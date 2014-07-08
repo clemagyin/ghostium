@@ -56,3 +56,15 @@
     }
   }
 }
+
+input[value="Vote"] {
+  width: auto !important;
+  height: auto !important;
+  text-transform: uppercase;
+}
+
+input[value="Results"] {
+  width: auto !important;
+  height: auto !important;
+  text-transform: uppercase !important;
+}
